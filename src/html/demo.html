@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品快速录入demo</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <!-- <div>
+        <button onclick="openWindow()">打开窗口</button>
+        <button onclick="closeWindow()">关闭窗口</button>
+    </div> -->
+    <div id="app1" class="app2">
+
+    </div>
+</body>
+<script src="../lib/jquery.18.min.js"></script>
+<!-- <script src="../js/index.js"></script> -->
+<script src="../js/dialog.js"></script>
+
+<script>
+    new Dialog('.app2', {
+        title:'商品快速录入',
+        // showIndex: 2,
+        // triggerEvent: 'mouseenter'
+    });
+</script>
+</html>

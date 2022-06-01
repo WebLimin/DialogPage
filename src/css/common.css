@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding:0;
+}
+ul,ol{
+    list-style: none;
+}
+::-webkit-scrollbar{
+    width:4px;
+    height:4px;
+}
+::-webkit-scrollbar-thumb{
+    width:4px;
+    height:4px;
+    background-color: #c5c5c5;
+}
+
+input{
+    border-width:1px;
+    border-style:solid;
+}
+.btn{
+    display: inline-block;
+    height:27px;
+    line-height: 25px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn-green{
+    color:#fff;
+    background-color: #009307;
+}
+.f-csp{
+    cursor: pointer;  
+}
+.btn-defualt{
+    border: 1px solid  #dedede;
+    background-color: #f6f6f6;
+}
+label{
+    margin-right:8px;
+    font-size: 12px;
+}
+.ipt{
+    font-size: 14px;
+    float: right;
+}
+.ipt-skin{
+    padding:0 5px;
+    border-color: #d9d9d9;
+    height:27px;
+    line-height: 27px;
+    box-sizing: border-box;
+}
+.chek-ipt{
+    display: inline-block;
+    width:16px;
+    height:16px;
+    border:1px solid #d9d9d9;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.icon{
+    width:14px;
+    height:14px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.icon-dis{
+    background: url('/static/images/dis.png') center;
+    margin-right:2px;
+}
+.icon-show{
+    background: url('/static/images/show.png') center;
+    margin-right:2px;
+}
+.tree-item-skin{
+    height:24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.tree-item-skin.active > .text{
+    color:#fff;
+    background-color:#0078d7;
+}
+
+
+/* .tree-item-skin > span{
+} */
+
+.tree-item-skin .text{
+    display: inline-block;
+    height:24px;
+    padding:0 2px;
+}
+
+/* .pad-0{
+} */
+.pad-15{
+    padding-left:15px;
+}
+
+.chek-active{
+    background: #009307;
+    position: relative;
+    border-color: #009307;
+}
+.chek-active::before{
+    content: '√';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -6px;
+    left: 2px;
+    color: #fff;
+    font-size: 12px;
+}
+.box{
+    display: flex;
+    justify-content:center;
+}
+td{
+    padding:2px 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+td .chek-active::before{
+    top: -1px;
+    left: 0px;
+}
+.bg-chek{
+    background-color: #edf8ee;
+}
+
+.quantityIpt{
+    display: none;
+}
+tr:hover{
+    background-color: #d7ffef;
+}

@@ -1,0 +1,259 @@
+#app{
+    width:970px;
+    height:638px;
+    border:5px solid #3273f4;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color:#000;
+    border-top:none;
+    /* display: none; */
+}
+.title{
+    background-color: #3273f4;
+    height:40px;
+    line-height: 40px;
+    color:#fff;
+    font-size: 16px;
+    padding:0 8px;
+}
+.dialog-btn-content{
+    float: right;
+}
+.main{
+    height:540px;
+}
+.left-tree{
+    float: left;
+    width:200px;
+    height:540px;
+    padding:0 8px;
+    border-right:10px solid #f4f4f4;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.left-tree-header-btn{
+    padding:5px 0;
+    font-size: 14px;
+}
+.left-tree-header-btn>a{
+    margin-right:20px;
+}
+.active{
+    font-weight: bold;
+}
+
+.right-info{
+    float: right;
+    width:760px;
+    box-sizing: border-box;
+}
+.right-info-header-btn-container{
+    height:86px;
+    padding: 10px 0 0;
+    box-sizing: border-box;
+}
+.right-info-header-left-input{
+    float: left;
+    width: 638px;
+    height:70px;
+}
+.right-info-header-left-input:after{
+    display: block;
+    height:0;
+    content:'';
+    clear: both;
+    visibility:hidden;
+}
+.right-info{
+     padding: 0 12px;
+
+}
+.right-info-header-right-button{
+    float: right;
+    width:98px;
+    height:70px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.form-item{
+  float: left;
+  margin-right:15px;
+  margin-bottom: 8px;
+  height:27px;
+  line-height: 27px;
+}
+
+.all-brand{
+    width: 120px;
+}
+.stroke-count{
+    width:70px;
+}
+.auto-search{
+    width:70px;
+}
+.btn-showshopprow{
+    width:108px;
+    border-radius: 0;
+    font-size: 13px;
+}
+.search-commodity{
+    width:207px;
+
+}
+
+table tr th, table tr td { 
+    border:1px solid #eee; 
+}
+table{
+    border-collapse: collapse;
+    /* 
+    边框宽度无法调整
+    border-width:2px;  */
+}
+table thead tr{
+    background-color: #eaeaea;
+    font-size: 14px;
+    height:24px;
+}
+
+table thead tr th{
+    font-weight: 400;
+}
+.right-info-mian-info-list{
+    height:194px;
+    overflow-y: auto;
+    border:1px solid #eaeaea;
+}
+.right-info-mian-info-list table thead tr th:nth-child(1){
+    width:58px;
+}
+.right-info-mian-info-list table thead tr th:nth-child(2){
+    width:86px;
+}
+.right-info-mian-info-list table thead tr th:nth-child(3){
+    width:142px;
+}
+.right-info-mian-info-list table thead tr th:nth-child(4){
+    width:240px;
+}
+.right-info-mian-info-list table thead tr th:nth-child(5){
+    width:52px;
+}
+.right-info-mian-info-list table thead tr th:nth-child(6){
+    width:63px;
+}
+.right-info-mian-info-list table thead tr th:nth-child(7){
+    width:52px;
+}
+.right-info-mian-info-list table thead tr th:nth-child(8){
+    width:45px;
+}
+.shopp-title{
+    overflow: hidden;
+    height:28px;
+    line-height: 28px;
+    font-size: 14px;
+    margin-top:6px;
+}
+.shopp-title li{
+    float: left;
+    margin-right:25px;
+}
+.shopp-info-list{
+    height:216px;
+    overflow-y: auto;
+    border:1px solid #eaeaea;
+}
+
+.shopp-info-list table thead tr th:nth-child(1){
+    width:62px;
+}
+.shopp-info-list table thead tr th:nth-child(2){
+    width:274px;
+}
+.shopp-info-list table thead tr th:nth-child(3){
+    width:48px;
+}
+.shopp-info-list table thead tr th:nth-child(4){
+    width:50px;
+}
+.shopp-info-list table thead tr th:nth-child(5){
+    width:52px;
+}
+.shopp-info-list table thead tr th:nth-child(6){
+    width:48px;
+}
+.shopp-info-list table thead tr th:nth-child(7){
+    width:142px;
+}
+.shopp-info-list table thead tr th:nth-child(8){
+    width:50px;
+}
+
+.footer{
+    height:42px;
+    border-top:10px solid #f4f4f4;
+}
+
+.footer-left-text{
+    float: left;
+    height:40px;
+    line-height: 40px;
+    padding:0 10px;
+    font-size: 12px;
+    color:#666;
+}
+
+.btn-list{
+    float: right;
+    width:80%;
+    height:42px;
+    line-height: 42px;
+}
+.btn-list > li {
+    float: right;
+    margin-right:20px;
+}
+
+.btn-inquire{
+    width:66px;
+}
+.btn-cancel,.btn-confirm{
+    width:72px;
+}
+.tree-menu{
+    font-size: 12px;
+    overflow-y: auto;
+    height:508px;
+}
+.tree-menu li{
+    height:24px;
+    overflow: hidden;
+}
+.tree-skin{
+    width: 14px;
+    height:14px;
+}
+
+.shopp-info-body tr td{
+    -webkit-user-modify:read-only;
+}
+
+.shopp-info-body tr td.active , .info-list-body tr.active{
+    background-color: #6699ff !important;
+    color:#fff;
+}
+.tips p {
+    font-size: 14px;
+    color:#666;
+    font-weight:500;
+}
+
+.icon-magnify{
+    border: 1px solid #fff;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+}

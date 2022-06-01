@@ -1,0 +1,240 @@
+{
+    "data": [
+        {
+            "brand": "价格测试",
+            "Class1_": "钓竿类",
+            "DescSpec_": "2124647532,规格：3m",
+            "Unit_": "个",
+            "Stock_": 0,
+            "OriUP_": 50,
+            "Code_": 752001000001,
+            "children":[
+                {
+                    "brand": "价格测试",
+                    "Class1_": "钓竿类",
+                    "DescSpec_": "2124647532,规格：3m",
+                    "Unit_": "个",
+                    "Stock_": 0,
+                    "OriUP_": 50,
+                    "Code_": 752001100001
+                }
+            ]
+        },
+        {
+            "brand": "iCrazyMage",
+            "Class1_": "钓竿类",
+            "DescSpec_": "test16",
+            "Unit_": "个",
+            "Stock_": 0,
+            "OriUP_": 150,
+            "Code_": 752001000002
+        },
+        {
+            "brand": "iCrazyMage",
+            "Class1_": "配件类",
+            "DescSpec_": "啊'23'23,aa'bb 型号",
+            "Unit_": "个",
+            "Stock_": 0,
+            "OriUP_": 25,
+            "Code_": 752001000003
+        },
+        {
+            "brand": "阿蒙森",
+            "Class1_": "配件类",
+            "DescSpec_": "奔雷,长度：9米，颜色：红色",
+            "Unit_": "个",
+            "Stock_": 0,
+            "OriUP_": 18,
+            "Code_": 752001000004
+        },
+        {
+            "brand": "阿蒙森",
+            "Class1_": "配节类",
+            "DescSpec_": "测试才,",
+            "Unit_": "个",
+            "Stock_": 0,
+            "OriUP_": 13,
+            "Code_": 752001000005
+        },
+        {
+            "brand": "德岛",
+            "Class1_": "配节类",
+            "DescSpec_": "长杆,1.4m,2g",
+            "Unit_": "PCS",
+            "Stock_": 10,
+            "OriUP_": 34,
+            "Code_": 752001000006
+        },
+        {
+            "brand": "德岛",
+            "Class1_": "钓箱类",
+            "DescSpec_": "超级渔轮1,轴承：10个",
+            "Unit_": "PCS",
+            "Stock_": 10,
+            "OriUP_": 210,
+            "Code_": 752001000007
+        },
+        {
+            "brand": "华软渔具",
+            "Class1_": "钓箱类",
+            "DescSpec_": "大钓箱,5L",
+            "Unit_": "PCS",
+            "Stock_": 10,
+            "OriUP_": 260,
+            "Code_": 752001000008
+        },
+        {
+            "brand": "华软渔具",
+            "Class1_": "装备类",
+            "DescSpec_": "防水,颜色：黑，防水等级：3，",
+            "Unit_": "PCS",
+            "Stock_": 10,
+            "OriUP_": 180,
+            "Code_": 752001000009
+        },
+        {
+            "brand": "其它",
+            "Class1_": "装备类",
+            "DescSpec_": "六福渔轮,dk-01",
+            "Unit_": "PCS",
+            "Stock_": 10,
+            "OriUP_": 140,
+            "Code_": 752001000010
+        },
+        {
+            "brand": "其它",
+            "Class1_": "浮漂类",
+            "DescSpec_": "溪流竿 尊行者II溪 ,溪流竿：ZPII-450皮把款",
+            "Unit_": "PCS",
+            "Stock_": 10,
+            "OriUP_": 7,
+            "Code_": 752001000011
+        },
+        {
+            "brand": "##02#",
+            "Class1_": "浮漂类",
+            "DescSpec_": "溪流竿 尊行者II溪 ,溪流竿：ZPII-720皮把款",
+            "Unit_": "PCS",
+            "Stock_": 10,
+            "OriUP_": 12,
+            "Code_": 752001000012
+        },
+        {
+            "brand": "##02#",
+            "Class1_": "小药类",
+            "DescSpec_": "小药类,抄网,强力",
+            "Unit_": "PCS",
+            "Stock_": 10,
+            "OriUP_": 22,
+            "Code_": 752001000013
+        },
+        {
+            "brand": "2022-VIP",
+            "Class1_": "小药类",
+            "DescSpec_": "小药类,飞蝇竿,飞鹰",
+            "Unit_": "PCS",
+            "Stock_": 10,
+            "OriUP_": 18,
+            "Code_": 752001000014
+        },
+        {
+            "brand": "2022-VIP",
+            "Class1_": "钓线类",
+            "DescSpec_": "吊炸天115,品名：13",
+            "Unit_": "PCS",
+            "Stock_": 10,
+            "OriUP_": 33,
+            "Code_": 752001000015
+        },
+        {
+            "brand": "宝熊",
+            "Class1_": "钓线类",
+            "DescSpec_": "VR6000,13+1BB",
+            "Unit_": "个",
+            "Stock_": 0,
+            "OriUP_": 34,
+            "Code_": 752001000016
+        },
+        {
+            "brand": "宝熊",
+            "Class1_": "假饵类",
+            "DescSpec_": "iPad,尺寸：9.7，颜色：太空灰",
+            "Unit_": "PCS",
+            "Stock_": 10,
+            "OriUP_": 9,
+            "Code_": 752001000017
+        },
+        {
+            "brand": "巴尔杉木漂",
+            "Class1_": "假饵类",
+            "DescSpec_": "铁血披风,L,M,MM,MM,MMM<llfasfowrpoqwuirqwu",
+            "Unit_": "个",
+            "Stock_": 0,
+            "OriUP_": 7,
+            "Code_": 13
+        },
+        {
+            "brand": "巴尔杉木漂",
+            "Class1_": "竿包类",
+            "DescSpec_": "保养油test22,",
+            "Unit_": "PCS",
+            "Stock_": 10,
+            "OriUP_": 66,
+            "Code_": 752001000018
+        },
+        {
+            "brand": "成都金龙鱼饵",
+            "Class1_": "竿包类",
+            "DescSpec_": "吊炸天十代,12m",
+            "Unit_": "个",
+            "Stock_": 0,
+            "OriUP_": 88,
+            "Code_": 752001000019
+        },
+        {
+            "brand": "成都金龙鱼饵",
+            "Class1_": "服装类",
+            "DescSpec_": "ACE-2彩盒贴纸,S/M码,长方形200*45mm,黑底白字,VEGA,高粘铜版纸,头围:53-59cm,重量:265G",
+            "Unit_": "PCS",
+            "Stock_": 10,
+            "OriUP_": 126,
+            "Code_": 752001000020
+        },
+        {
+            "brand": "纯香蓝鲫",
+            "Class1_": "服装类",
+            "DescSpec_": "龙王怒,长度：8米，颜色：赤，",
+            "Unit_": "个",
+            "Stock_": 0,
+            "OriUP_": 145,
+            "Code_": 752001000021
+        },
+        {
+            "brand": "纯香蓝鲫",
+            "Class1_": "成品类",
+            "DescSpec_": "吊炸天70代,",
+            "Unit_": "PCS",
+            "Stock_": 10,
+            "OriUP_": 320,
+            "Code_": 752001000022
+        },
+        {
+            "brand": "蒂龙",
+            "Class1_": "成品类",
+            "DescSpec_": "钓竿1218C,",
+            "Unit_": "个",
+            "Stock_": 0,
+            "OriUP_": 360,
+            "Code_": 752001000023
+        },
+        {
+            "brand": "蒂龙",
+            "Class1_": "其它",
+            "DescSpec_": "test28,test28",
+            "Unit_": "PCS",
+            "Stock_": 10,
+            "OriUP_": 88,
+            "Code_": 752001000024
+        }
+    ]
+}

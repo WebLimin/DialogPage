@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品快速录入demo</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div style="text-align: center;">
+        <button onclick="openWindow()">打开窗口</button>
+        <button onclick="closeWindow()">关闭窗口</button>
+        <!-- <input type="text" readonly id="cheshiID"> -->
+    </div>
+    <div id="app">
+        <header class="title">
+            商品快速录入
+            <div class="dialog-btn-content">
+                <a class=""><span class="icon icon-magnify"></span></a>
+                <a class=""><span class="icon icon-close">X</span></a>
+            </div>
+        </header>
+        <div class="main">
+            <div class="left-tree">
+                <div class="left-tree-header-btn">
+                    <a class="btn-common active">常用菜单</a>
+                    <a class="btn-shortcut">快捷操作</a>
+                </div>
+                <div class="tree-menu">
+                    <ul class="pad-0">
+                        <li>
+                            <div class="tree-item-skin">
+                                <span class="icon icon-show tree-skin"></span>
+                                <span class="text" data-id="">所有商品</span>
+                            </div>
+                            <!-- <ul class="pad-15">
+                                <li>
+                                    <div class="tree-item-skin">
+                                        <span class="icon icon-show tree-skin"></span>
+                                        <span class="text">钓杆类</span>
+                                    </div>
+                                    <ul class="pad-15">
+                                        <li>
+                                            <div class="tree-item-skin">
+                                                <span class="icon icon-show tree-skin"></span>
+                                                <span class="text">钓杆类</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul> -->
+                        </li>
+                    </ul>
+                </div>
+                <div class="tips" style="display: none;">
+                    <p>在输入搜索条件后：</p>
+                    <p>Enter：自动查询</p>
+                    <p>Space：回到搜索条件</p>
+                    <p>Esc：取消</p>
+                    <p>Alt+Enter：确定</p>
+                    <p>在商品查询表格中：</p>
+                    <p>W/S：光标上下移动</p>
+                    <p>方向键上/下：光标上下移动</p>
+                    <p>Enter：增加商品数量</p>
+                    <p>D：回到选中商品表格</p>
+                    <p>Delete：删除选中商品</p>
+                    <p>在选中商品表格中：</p>
+                    <p>Enter：光标定位数量显示更改数量</p>
+                    <p>Enter：光标定位赠品是否需要赠品</p>
+                    <p>Enter：光标定位备注显示更改备注</p>
+                    <p>A：回到商品查询表格中</p>
+                    <p>方向键左/右(只在选中商品中生效)：光标左右移动</p>
+                    <p>W/S：光标上下移动</p>
+                    <p>方向键上/下：光标上下移动</p>
+                    <p>1-9：更改录入数量</p>
+                    <p>0：当前录入数量乘10</p>
+                    <p>Delete：删除选中商品</p>
+                </div>
+            </div>
+            <div class="right-info">
+                    <div class="right-info-header-btn-container">
+                        <div class="right-info-header-left-input">
+                            <div id="infoForm">
+                                <div class="form-item">
+                                    <label for="">商品品牌:</label>
+                                    <div class="ipt">
+                                        <select name="brand" id="" class="ipt-skin all-brand">
+                                            <option value="">所有商品</option>
+                                        </select>
+                                        </div>
+                                </div>
+                                <div class="form-item">
+                                    <label for="">载入笔数:</label>
+                                    <div class="ipt">
+                                        <select name="strokeCount" id="" class="ipt-skin stroke-count">
+                                            <option value="">123</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-item">
+                                    <label for="">自动搜索:</label>
+                                    <div class="ipt">
+                                        <select name="autoSearch" id="" class="ipt-skin auto-search">
+                                            <option value="停止">停止</option>
+                                            <option value="3">3S</option>
+                                            <option value="5">5S</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-item">
+                                    <div class="ipt">
+                                        <a class="btn btn-defualt btn-showshopprow">显示购物车行数</a>
+                                    </div>
+                                </div>
+                                <div class="form-item">
+                                    <label for="">搜索商品:</label>
+                                    <div class="ipt">
+                                        <input type="text" name="searchCommodity" class="ipt-skin search-commodity"/>
+                                    </div>
+                                </div>
+                                <div class="form-item">
+                                    <div class="ipt">
+                                        <span class="chek-ipt" data-autocount="0"></span>
+                                        选择商品时，同时输入数量
+                                    </div>
+                                </div>
+                                <div class="form-item">
+                                    <div class="ipt">
+                                        <span class="chek-ipt" data-stock="0"></span>
+                                        库存不等于0
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-info-header-right-button">
+                            <a class="btn btn-green btn-inquire">查询</a>
+                        </div>
+                    </div>
+                    <div class="right-info-mian-info-list">
+                        <table cellpadding="0">
+                            <thead>
+                                <tr>
+                                    <th>选中</th>
+                                    <th>品牌</th>
+                                    <th>商品类别</th>
+                                    <th>商品规格</th>
+                                    <th>单位</th>
+                                    <th>库存量</th>
+                                    <th>单价</th>
+                                    <th>赠品</th>
+                                </tr>
+                            </thead>
+                            <tbody align="center" class="info-list-body">
+                               
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="right-info-mian-shopp-cat-container">
+                        <ul class="shopp-title">
+                            <li><a class="shopp-title-btn active">购物车</a></li>
+                            <li><a class="shopp-title-btn">执行讯息</a></li>
+                        </ul>
+                        <div class="shopp-info-list">
+                            <table cellpadding="0">
+                            <thead>
+                                <tr>
+                                <th>序</th>
+                                <th>商品规格</th>
+                                <th>单位</th>
+                                <th>数量</th>
+                                <th>单价</th>
+                                <th>赠品</th>
+                                <th>备注</th>
+                                <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody align="center" class="shopp-info-body">
+                               
+                            </tbody>
+                            </table>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-left-text">
+                停止自动搜索
+            </div>
+            <ol class="btn-list">
+                <li><a class="btn btn-defualt btn-cancel">取消</a></li>
+                <li><a class="btn btn-defualt btn-confirm">确定</a></li>
+            </ol>
+        </div>
+    </div>
+    <!-- <div id="app1" class="app2">
+
+    </div> -->
+</body>
+<script src="../lib/jquery.18.min.js"></script>
+<script src="../js/index.js"></script>
+<!-- <script src="../js/dialog.js"></script> -->
+
+<!-- <script>
+    new Dialog('.app2', {
+        // showIndex: 2,
+        // triggerEvent: 'mouseenter'
+    });
+</script> -->
+</html>
